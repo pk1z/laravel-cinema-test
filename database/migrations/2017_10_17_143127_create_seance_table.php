@@ -15,6 +15,8 @@ class CreateSeanceTable extends Migration
     {
         Schema::create('seance', function (Blueprint $table) {
             $table->increments('id');
+
+
             $table->dateTimeTz('start');
             $table->timestamps();
         });
@@ -27,6 +29,10 @@ class CreateSeanceTable extends Migration
      */
     public function down()
     {
+
+
         Schema::dropIfExists('seance');
+
+
     }
 }
