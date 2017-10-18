@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Ticket extends Model
 {
+    public $table = 'ticket';
     /**
      * Returns seances, that goes in this room
      *
@@ -13,6 +14,6 @@ class Ticket extends Model
      */
     public function seances()
     {
-        return $this->belongsTo('App\Room');
+        return $this->belongsTo('App\Seance');
     }
 }

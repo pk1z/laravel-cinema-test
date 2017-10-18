@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Seance extends Model
 {
+    public $table = 'seance';
 
     /**
      * Returns the film, than shows on this seance

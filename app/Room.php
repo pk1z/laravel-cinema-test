@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Room extends Model
 {
 
+    public $table = 'room';
     /**
      * Return seances, thouse goes in this room
      *
