@@ -15,7 +15,7 @@ class Seance extends Model
      */
     public function films()
     {
-        return $this->belongsTo('App\Films');
+        return $this->belongsTo('App\Films','id','film_id');
     }
 
     /**

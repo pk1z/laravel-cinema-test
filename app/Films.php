@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Films extends Model
 {
 
+    public $table = 'films';
     /**
      * Return seances, thouse goes with this film
      *
@@ -14,6 +15,6 @@ class Films extends Model
      */
     public function seances()
     {
-        return $this->hasMany('App\Seance');
+        return $this->hasMany('App\Seance', 'film_id');
     }
 }
