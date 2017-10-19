@@ -1,5 +1,9 @@
 ####Тестовое задание "Кинотеатр"
 
+[![protected-castle-80367](https://heroku-badge.herokuapp.com/?app=protected-castle-80367)]
+
+###[DEMO](http://protected-castle-80367.herokuapp.com/)
+
 Создать всю необходимую структуру
  - Реализовать функции «Посмотреть, какое кино идет в ближайшее время» и
 «Купить билеты».
